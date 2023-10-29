@@ -1,184 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
+    
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="The BHARANI TECH University at Sidhpur provide one of the earliest form of technical studies, which has been vital in setting up the standard of brilliance.">
+    <meta name="keywords" content="BHARANI TECH University,Collage">
+    <meta name="author" content="BHARANI SANA">
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 2rem 0;
-            position: relative; /* Add this */
-        }
-
-        .header-content h1 {
-            font-size: 2.5rem;
-        }
-
-        /* Add styles for the round profile picture */
-        .profile-picture {
-            width: 100px; /* Adjust the size as needed */
-            height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        .section-content {
-            background-color: #fff;
-            padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: justify;
-        }
-
-        .download-button {
-            background-color: #333;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            text-decoration: none;
-            border-radius: 20px;
-            display: inline-block;
-            margin-top: 10px;
-            align-self: center;
-        }
-
-        .download-button:hover {
-            background-color: #555;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #333;
-            color: #fff;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-    </style>
+    <title>BHARANI TECH</title>
+    
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/svg+xml">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <!-- Add your profile picture here -->
-            <img src="WhatsApp Image 2023-10-27 at 9.34.55 PM.jpeg"./"Your Profile Picture" class="profile-picture">
-            <h1>BHARANIDHARAN R</h1>
-            <p>BHARATHIDHASAN UNIVERSITY </p>
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#resume">Resume</a></li>
-        </ul>
-    </nav>
-
-    <section id="about">
-        <div class="section-content">
-            <h2>About Me</h2>
-            <p>I am Bsc computer science student.I was interested in web development.I learn to html ,css , javascript and other progaram languages My aim creating new Android application..</p>
-        </div>
-    </section>
-
-    <section id="education">
-        <div class="section-content">
-            <h2>Education</h2>
-            <p>BHARATHIDHASAN UNIVERSITY - BSC COMPUTER SCIENCE </p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="section-content">
-            <h2>Skills</h2>
-            <ul>
-                <li>CyberSecurity</li>
-                <li>Internet of Things</li>
-                <li>Cloud Computing</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="section-content">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="#">AI Based alternator control system</a></li>
-                <li><a href="#">Cloud Security IBM</a></li>
-                <!-- Add more project links here -->
-            </ul>
-        </div>
-    </section>
-
-    <section id="resume">
     
-        <div class="section-content">
-            <center>
-            <h2>Resume</h2>
-            <a href="https://drive.google.com/file/d/11RQTps7S4km-DZka6j-c8ReqEADIraAK/view?usp=drivesdk target="_blank" class="download-button">Download CV</a>
-        </center>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg" id="logo-img"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <span class="icon" onclick="hidemenu()">&#10005;</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Admission_page.html">Admission</a></li>
+                    <li><a href="#course_call">Course</a></li>
+                    <li><a href="fees_page.html">Fees</a></li>
+                    <li><a href="Contact_page.html">Contact</a></li>
+                </ul>
+            </div> 
+            <span class="icon" onclick="showmenu()">&#9776;</span>
+        </nav>
+       
+        <div class="text-box">
+            <h1>BHARANI TECH College</h1>
+            <p>The BHARANI TECH  University at Sidhpur provide one of the earliest form of technical studies,<br>which has been vital in setting up the standard of brilliance.</p>
+            
+            <a href="Admission_page.html" class="hero-btn">Admission Open</a>
         </div>
-        
     </section>
 
-    <footer>
-        <p>&copy; 2023 BHARANIDHARAN R</p>
-    </footer>
+    <!--Course of Collage-->
 
-    <script>
-        // Smooth scrolling to section when clicking on navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
 
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
+    <section class="course" id="course_call">
+        <h1>Course We Offer</h1>
+        <p>We are offer to three best computer science course for student by Gokul Global University</p>
 
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
+        <div class="row">
+            <div class="course-col">
+                <h2>BCA</h2>
+                <p>The BCA course is a full time three years (six semesters) Bachelor’s Degree in Computer Application.The degree helps interested students in setting up a sound academic base for an advanced career in Computer Applications.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>BSC-IT </h2>
+                <p>BSc (Bachelor of Science) in IT is basically about storing, processing, securing, and managing information. This degree is primarily focused on subjects such as software, databases, and networking. </p>
+            </div>
+
+            <div class="course-col">
+                <h2>BSC CA & IT</h2>
+                <p>The Bachelor of Science in (CS & IT) is an undergraduate degree course in computer applications for a duration of 3 years. The field relates to design, development and use of computer applications. </p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--Campus Section-->
+
+    <section class="campus">
+        <h1> Our Campus</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quisquam atque non voluptate</p> -->
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="/cm1.imagejfif" alt="">
+                    <div class="layer">
+                        <h3>Environment</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="image/cm2.jfif" alt="">
+                    <div class="layer">
+                        <h3>Community</h3>
+                    </div>
+                </div>
+
+                <div class="campus-col">
+                    <img src="image/cm3.jfif" alt="">
+                    <div class="layer">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Facilities Section-->
+
+    <section class="facilities">
+        <h1> Our facilities</h1>
+        <p>Facilities provide for Students by Gokul Global University</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/canteen.jfif" alt="">
+                <h3>Canteen</h3>
+                <p>The objective of the Canteen and meal service is to protect by reducing the risk of foodborne illness, with proper sanitary conditions.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="image/auditorium.jfif" alt="">
+                <h3>Auditorium</h3>
+                <p>The college is having a huge indoor auditorium with a professionally-deployed acoustic system and a seating capacity of about 200 people.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="image/hostel.jfif" alt="">
+                <h3>Hostel</h3>
+                <p>hostel consists of a separate mess, administrative office, warden quarter. In addition to well furnished rooms.</p>
+            </div>
+        </div>
+        </section>
+
+        <!--Call To Action Section-->
+
+        <section class="ctn">
+            <h1> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+        </section>
+
+         <!--Footer-->
+         <section class="footer">
+             <h4>About Us</h4>
+            <p>The BHARANI TECH  University at Sidhpur provide one of the earliest form of technical studies,
+                which has been vital in setting up the standard of brilliance.</p>
+             <p id="copyright">Made By &#10084; BHARANI SANA</p>
+         </section>
+
+    <!--Javascript is Start-->
+    <script src="javascript/main_script.js"></script>
 </body>
+
+    
+    
 </html>
